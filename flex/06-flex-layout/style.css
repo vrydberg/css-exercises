@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -25,3 +26,69 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.homepage {
+  display: flex;
+  /* width: 800px;
+  height: 600px; */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2px;
+  background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.left-links {
+  margin-left: -20px;
+}
+
+.right-links {
+  margin-right: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+
+
